@@ -38,7 +38,7 @@ function showQuestion(data){
   selectOption();
 
 }
-
+//options selection
 function selectOption(){
 
 }
