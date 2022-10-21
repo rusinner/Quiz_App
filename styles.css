@@ -96,6 +96,22 @@ body {
   border-color: var(--grey-color) !important;
   box-shadow: 0 4px 0 0 #bbb !important;
 }
+.wrapper .quiz-container .quiz-body #result {
+  padding: 0.7em 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.wrapper .quiz-container .quiz-body #result i {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  line-height: 30px;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: var(--light-purple-color);
+  color: var(--light-color);
+}
 .wrapper .quiz-container .quiz-foot button {
   border: none;
   border-radius: 0.5rem;

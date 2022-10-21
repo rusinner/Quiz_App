@@ -98,6 +98,22 @@ body{
                 box-shadow: 0 4px 0 0 #bbb !important;
             }
         }
+        #result{
+            padding: .7em 0;
+            text-align: center;
+            font-weight: 600;
+            font-size: 1.3rem;
+            i{
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                line-height: 30px;
+                margin-right: .5rem;
+                margin-bottom: .5rem;
+                background-color: var(--light-purple-color);
+                color: var(--light-color);
+            }
+        }
     }
     .quiz-foot{
         button{
