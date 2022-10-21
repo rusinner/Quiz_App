@@ -42,7 +42,7 @@ function showQuestion(data){
   * (incorrectAnstwer.length +1)),0,correctAnswer);
   //insert correct answer in random position in the options list
   _question.innerHTML = `${data.question} 
-  <br> <span class = 'category'></span>`;
+  <br> <span class = 'category'>${data.category} </span>`;
   _options.innerHTML = `${optionsList.map((option,index) =>`
    <li>${index + 1} <span>${option}</span></li>
   `).join('\n')}`;
